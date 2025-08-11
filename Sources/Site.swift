@@ -15,12 +15,11 @@ struct IgniteWebsite {
 }
 
 struct ExampleSite: Site {    
-    var name = "Hello World"
-    var titleSuffix = " – My Awesome Site"
-    var url = URL(static: "https://www.example.com")
+    var name = "nekultura"
+    var url = URL(static: "https://nekultura.tech")
     var builtInIconsEnabled = true
 
-    var author = "John Appleseed"
+    var author = "marko"
 
     var homePage = Home()
     var layout = MainLayout()
